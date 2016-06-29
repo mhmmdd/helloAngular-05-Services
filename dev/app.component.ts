@@ -5,7 +5,7 @@ import {Component2Component} from "./component2.component";
 @Component({
   selector: 'my-app',
   template: `
-    <h1>First Component</h1>
+    <h2>First Component</h2>
     <component-1></component-1>
     <br/>
     <h2>Second Component</h2>
