@@ -2,5 +2,6 @@
 import {bootstrap} from 'angular2/platform/browser';
 import {AppComponent} from "./app.component";
 import {LogginService} from "./services/loggin.service";
+import {DataService} from "./services/data.service";
 
-bootstrap(AppComponent, [LogginService]);
+bootstrap(AppComponent, [LogginService, DataService]);
